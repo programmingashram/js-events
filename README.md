@@ -96,3 +96,68 @@ function test2(){
    <input type="text" value="user inpur" placeholder="Type Something" id="input" onkeydown="test2();"/>
  </form>
  ```
+ 
+  
+#### 🧩onblur Event 
+> With the help of onblur Event, we can get the values from input when focus on the input.
+      
+      
+***📝index.js***
+```
+function test(){
+    let ele = document.querySelector('#input');
+    console.log(ele.value);
+}
+```
+
+***📝index.html***
+
+```
+<form action="">
+    <input type="text" value="ansh" placeholder="Type Something" id="input" onblur="test()" />
+</form>
+ ```
+ 
+   
+#### 🧩onMouseEnter Event 
+> With the help of onMouseEnter Event, we can get the values from input when user hover or enter the mouse cursor in input field.
+      
+      
+***📝index.js***
+```
+function test(){
+    let ele = document.querySelector('#input');
+    console.log(ele.value);
+}
+```
+
+***📝index.html***
+
+```
+<form action="">
+    <input type="text" value="ansh" placeholder="Type Something" id="input" onmouseenter="test()" />
+</form>
+ 
+ ```
+ 
+ 
+ #### 🧩onMouseleave Event 
+> With the help of onMouseleave Event, we can get the values from input when user hover and realse the cursor on input.
+      
+      
+***📝index.js***
+```
+function test(){
+    let ele = document.querySelector('#input');
+    console.log(ele.value);
+}
+```
+
+***📝index.html***
+
+```
+<form action="">
+    <input type="text" value="ansh" placeholder="Type Something" id="input" onmouseenter="test()" />
+</form>
+ 
+ ```
